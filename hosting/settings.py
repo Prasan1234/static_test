@@ -17,7 +17,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 BASE_DIR1 = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATES_DIRS = os.path.join(BASE_DIR1,'TEMPLATE')
-STATIC_DIRS = os.path.join(BASE_DIR1,'staticfiles_build','STATIC')
+STATIC_DIRS = os.path.join(BASE_DIR1,'staticfiles','STATIC')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
