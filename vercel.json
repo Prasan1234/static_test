@@ -23,5 +23,9 @@
       "src": "/(.*)",
       "dest": "hosting/wsgi.py"
     }
-  ]
+  ],
+  "static": {
+    "prefix": "/static",
+    "source": "staticfiles_build"
+  }
 }
